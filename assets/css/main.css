@@ -1530,8 +1530,11 @@ input, select, textarea {
 		}
 
 			#header h1 a {
-				color:#f8d090
+				color:#e3c493;
 				text-decoration: none;
+			    background-size: contain; 
+                background-repeat: no-repeat;
+			
 			}
 
 		#header nav {
@@ -1556,6 +1559,15 @@ input, select, textarea {
 		.subpage #header > .container {
 			height: 155px;
 		}
+
+		#logo {
+             font-size: 0;
+             color: transparent; /* 雙重保險，讓文字透明 */
+             display: inline-block;
+             width: 30px;
+            height: 30px;
+            background-image: url("../images/Nichocollection.PNG");
+}
 
 /* Banner */
 
