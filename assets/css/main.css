@@ -1536,12 +1536,13 @@ input, select, textarea {
                 background-repeat: no-repeat;
 			
 			}
-			#logo {
+			#header　logo {
              font-size: 0;
              color: transparent; /* 雙重保險，讓文字透明 */
              display: inline-block;
-             width: 40px;
-            height: 40px;
+             width: 100px;
+             height: 100px;
+			 margin-top: 40px;
             background-image: url("images/Nichocollection.png");
             }
 
