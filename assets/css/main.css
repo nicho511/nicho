@@ -1529,14 +1529,14 @@ input, select, textarea {
 			font-size: 2.75em;
 		}
 
-			#header h1 a {
+			#header h1 a #logo {
 				color:#e3c493;
 				text-decoration: none;
 			    background-size: contain; 
                 background-repeat: no-repeat;
-			
-			}
-			#header　#logo {
+				}
+
+			#a #logo{
              font-size: 0;
              color: transparent; /* 雙重保險，讓文字透明 */
              display: inline-block !important;
@@ -1544,7 +1544,7 @@ input, select, textarea {
              height: 100px;
 			 margin-top: 40px;
             background-image: url("images/Nichocollection.png");
-            }
+		    }
 
 		#header nav {
 			position: absolute;
