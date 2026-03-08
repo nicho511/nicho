@@ -1525,7 +1525,7 @@ input, select, textarea {
 			#header h1 a {
 			  font-size: 0 ;
 			  color: transparent; /* 雙重保險，讓文字透明 */
-			  display: inline-block;
+			  display: flex;
 			  background-size: contain;
 			  background-repeat: no-repeat;
 			  width: 300px; 
@@ -1546,8 +1546,9 @@ input, select, textarea {
 			#header nav a {
 				color: #53893d;
 				text-decoration: none;
-				font-size: 5.0em;
-				margin-left: 35px;
+				font-size: 1.5em;
+				margin-left: 20px;
+				margin-right: 30px;
 				outline: 0;
 				font-weight: bold;
 			}
@@ -1589,7 +1590,7 @@ input, select, textarea {
 		background: #353D40 url("images/bg02.jpg");
 		border-bottom: solid 0px #272e31;
 		padding: 45px 0 45px 0;
-		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
+		text-shadow: -1px -1px 1px rgba(86, 85, 85, 0.75);
 		color: #a0a8ab;
 	}
 
