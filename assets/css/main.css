@@ -1532,7 +1532,8 @@ input, select, textarea {
 			#header h1 a {
 			  font-size: 0 ;
 			  color: transparent; /* 雙重保險，讓文字透明 */
-              display: inline-block ；
+              display: inline-block ；}
+			#logo{
               width: 30px;
               height: 30px;
 			  margin-top: 60px;
