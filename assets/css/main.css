@@ -1532,10 +1532,12 @@ input, select, textarea {
 			#header h1 a {
 			  font-size: 0 ;
 			  color: transparent; /* 雙重保險，讓文字透明 */
-			  background-image: url("images/Nichocollection.png");
+			  display: inline-block;
+			  background-size: contain;
 			  width: 250px; 
               height: 100px;
               margin-top: 60px;
+			  background-image: url("images/Nichocollection.png");
 			}
 
 
