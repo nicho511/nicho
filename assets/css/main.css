@@ -1590,12 +1590,20 @@ input, select, textarea {
 		border-bottom: solid 0px #272e31;
 		padding: 20px 0 20px 0;
 		color: rgb(52, 72, 79);}
-
+        
 
 		#features h2 {
 			font-size: 1.2em;
 			color: #fff;
-			}
+	        text-shadow: -1px -1px 1px #272e31;
+		}
+
+        .feature li {
+        list-style-position: inside !important; 
+        padding-left: 1em !important;            
+        margin-left: 0;
+        text-align: left;                       
+  }
 
 		#features a {
 			color: #e0e8eb;
@@ -1605,10 +1613,7 @@ input, select, textarea {
 			color: #fff;
 		}
 
-		#feature li {
-    margin-left: 0.5em；
-		}
-
+		
 
 /* Content */
 
