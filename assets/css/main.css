@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	ul, ol, p, dl {
-		margin: 0 0 2em 0;
+		margin: 0 0 0 0;
 	}
 
 	a {
@@ -1604,6 +1604,11 @@ input, select, textarea {
 		#features strong {
 			color: #fff;
 		}
+
+		#features p {
+			padding-right: 20px；
+		}
+
 
 /* Content */
 
