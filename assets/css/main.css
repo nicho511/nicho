@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
 
-/*
-	Halcyonic by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -1513,11 +1507,11 @@ input, select, textarea {
 
 	#header {
 		position: relative;
+
         background: #3B4346 url("images/bg01.jpg");
         border-bottom: solid 2px #c79292;
         box-shadow: inset 0px 0px 0px 0px #51575a;
         text-shadow: -1px -1px 1px rgba(244, 153, 153, 0.75);
-
 		background: #46423b url("images/bg01.jpg");
 		border-bottom: solid 1px #272d30;
 		box-shadow: inset 0px -1px 0px 0px #51575a;
