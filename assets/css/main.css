@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
-</style>
+
 /*
 	Halcyonic by HTML5 UP
 	html5up.net | @ajlkn
@@ -1513,11 +1513,15 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background: #3B4346 url("images/bg01.jpg");
-		border-bottom: solid 2px #c79292;
-		box-shadow: inset 0px 0px 0px 0px #51575a;
-		text-shadow: -1px -1px 1px rgba(244, 153, 153, 0.75);
-	}
+        background: #3B4346 url("images/bg01.jpg");
+        border-bottom: solid 2px #c79292;
+        box-shadow: inset 0px 0px 0px 0px #51575a;
+        text-shadow: -1px -1px 1px rgba(244, 153, 153, 0.75);
+
+		background: #46423b url("images/bg01.jpg");
+		border-bottom: solid 1px #272d30;
+		box-shadow: inset 0px -1px 0px 0px #51575a;
+		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
 
 		#header > .container {
 			position: relative;
@@ -1677,7 +1681,7 @@ input, select, textarea {
 		}
 
 		#footer .quote-list li {
-			: solid 1px #e0e4e6;
+			border-top: s0e4e6;
 			border-bottom: solid 1px #b5bec3;
 		}
 
@@ -1965,69 +1969,61 @@ input, select, textarea {
 /* Small */
 
 	@media screen and (max-width: 736px) {
+    /* Basic */
+    body, input, textarea, select {
+        font-size: 13pt;
+        line-height: 1.4em;
+    }
 
-		/* Basic */
+    /* Multi-use */
+    .link-list li {
+        padding: 0.75em 0 0.75em 0;
+    }
 
-			body, input, textarea, select {
-				font-size: 13pt;
-				line-height: 1.4em;
-			}
+    .quote-list li p {
+        margin-bottom: 0.5em;
+    }
 
-		/* Multi-use */
+    .check-list li {
+        font-size: 1em;
+    }
 
-			.link-list li {
-				padding: 0.75em 0 0.75em 0;
-			}
+    .button-large {
+        width: 100%;
+    }
 
-			.quote-list li p {
-				margin-bottom: 0.5em;
-			}
+    /* Banner */
+    #banner p {
+        font-size: 1.25em;
+        font-weight: 200;
+        line-height: 1.25em;
+        margin: 0 0 1em 0;
+    }
 
-			.check-list li {
-				font-size: 1em;
-			}
+    /* Content */
+    #content section {
+        padding: 30px 20px;
+    }
 
-			.button-large {
-				width: 100%;
-			}
+    #content h2 {
+        font-size: 1.25em;
+    }
 
-		/* Banner */
+    #content h3 {
+        font-size: 1em;
+    }
 
-			#banner p {
-				font-size: 1.25em;
-				font-weight: 200;
-				line-height: 1.25em;
-				margin: 0 0 1em 0;
-			}
+    #content header {
+        margin: 0 0 1.25em 0;
+    }
 
-		/* Content */
+    /* Footer */
+    #footer .link-list {
+        margin: 0 0 10px 0 !important;
+    }
 
-			#content section {
-				padding: 30px 20px;
-			}
-
-			#content h2 {
-				font-size: 1.25em;
-			}
-
-			#content h3 {
-				font-size: 1em;
-			}
-
-			#content header {
-				margin: 0 0 1.25em 0;
-			}
-
-		/* Footer */
-
-			#footer .link-list {
-				margin: 0 0 10px 0 !important;
-			}
-
-		/* Copyright */
-
-			#copyright {
-				padding: 20px 30px;
-			}
-
+    /* Copyright */
+    #copyright {
+        padding: 20px 30px; }
 	}
+}
